@@ -1,0 +1,78 @@
+.nav-bar{
+  background-color: #fff;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff; /* Fundo claro e suave */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Alinha os botões à direita */
+    background-color: #4ECDC4BF;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.informe{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end; /* Alinha os botões à direita */
+        background-color: #4ECDC4BF;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        margin-right: 200px;
+}
+
+a{
+    color: #fff;
+}
+
+button {
+    margin: 10px 0;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(146, 237, 231); /* Cor principal */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Botões ocupam toda a largura do contêiner */
+    max-width: 300px; /* Define uma largura máxima */
+    min-width: 200px; /* Define uma largura mínima */
+}
+
+button:hover {
+    background-color: rgb(110, 207, 201); /* Cor mais escura ao passar o mouse */
+    transform: translateY(-3px); /* Efeito de leve elevação */
+}
+
+button:active {
+    background-color:rgb(110, 207, 201); /* Cor ao pressionar */
+    transform: translateY(0); /* Remove o efeito de elevação ao clicar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px; /* Espaçamento entre o h1 e o h4 */
+    color: #fff;
+}
+
+h4 {
+    font-size: 18px;
+    color: #555; /* Cor mais clara para o subtítulo */
+    margin-top: 0; /* Remove a margem superior do h4 */
+}

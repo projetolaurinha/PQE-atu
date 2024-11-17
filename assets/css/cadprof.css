@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #F6c1a1; /* Fundo claro */
+}
+
+a {
+    color: #fff;
+    text-decoration: none; /* Remove sublinhado */
+}
+
+.nav-bar {
+    background-color: #F6dec8;
+}
+
+.container {
+    margin-top: 100px;
+    background-color: #F6dec8;
+    padding: 25px 35px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 280px; /* Ligeiramente menor */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #6b4f3f;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Mantendo o destaque */
+    color: #6b4f3f;
+    font-size: 12px; /* Diminuir o tamanho das labels */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%; /* Mantém a largura total */
+    padding: 8px 0; /* Botões mais baixos */
+    background-color: #bd754e; /* Cor do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 14px; /* Diminuir a fonte */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #a36f48; /* Cor mais escura ao passar o mouse */
+}
+
+.google-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.google-login img {
+    width: 18px;
+    margin-right: 8px;
+}

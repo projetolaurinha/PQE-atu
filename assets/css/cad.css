@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #F6c1a1; /* Fundo claro */
+}
+
+a{
+    color: #fff;
+}
+
+.nav-bar{
+    background-color: #F6dec8;
+ }
+
+.container {
+    margin-top: 120px;
+    background-color: #F6dec8 ;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Largura do formulário */
+}
+
+
+h2 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+label {
+    display: block; /* Cada rótulo ocupa uma linha */
+    margin-bottom: 5px; /* Espaço abaixo do rótulo */
+    font-weight: bold; /* Destaca o texto do rótulo */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaço interno */
+    margin-bottom: 20px; /* Espaço entre campos */
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+button {
+    width: 100%; /* Botão ocupa toda a largura */
+    padding: 10px; /* Espaço interno do botão */
+    background-color: #bd754e; /* Cor do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar */
+    transition: background-color 0.3s; /* Transição de cor suave */
+    margin-bottom: 10px; /* Espaço abaixo do botão */
+}
+
+button:hover {
+    background-color: #bd754e; /* Cor mais escura ao passar o mouse */
+}
+
+.google-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff; /* Cor do fundo do botão Google */
+    color: #000; /* Cor do texto do botão */
+    border: none; /* Remove borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px;
+    cursor: pointer; /* Cursor de ponteiro ao passar */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.google-login img {
+    width: 20px; /* Tamanho do ícone do Google */
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+}
